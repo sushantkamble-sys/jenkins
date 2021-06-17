@@ -1,0 +1,40 @@
+ git --version
+ git init
+ git config --global user.name 'sushantkamble'
+ git config --global user.email 'sushantkamble949@gmail.com'
+ git status
+ git add Readme.txt
+ git status
+ git commit -m "this my 1st commit"
+ git status
+ git remote add origin https://github.com/sushantkamble-sys/demo-repo.git
+ git remote -v
+ git push origin master
+
+1 configuration
+
+--------------------------------------------------------------------------------
+
+
+ git status
+ git add test.txt
+ git commit -m "this 2nd file"
+ git push origin master
+---------------------------------------------------------------------------------
+
+to copy the folder github to pc 
+ git clone https://github.com/sushantkamble-sys/Demo.git
+
+to check how many commit 
+ git log --oneline
+git checkout logid
+git checkout master
+
+to unstatus to 
+git reset filename
+
+git revert commitid
+
+
+
+
